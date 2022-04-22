@@ -2,6 +2,9 @@
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
+
+[click here, see closer](https://calculator-app-main-cs.netlify.app/) 😉
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
