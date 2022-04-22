@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="header-container">
+        <h1>calc</h1>
+
+        <div class="theme-container">
+          <span>THEME</span>
+
+          <div class="switch-container">
+            <div class="switch-numbers">1 2 3</div>
+            <input
+              class="radio"
+              name="radio"
+              id="them-1"
+              value="them-1"
+              type="radio"
+              checked
+            />
+            <input
+              class="radio"
+              name="radio"
+              id="them-2"
+              type="radio"
+              value="them-2"
+            />
+            <input
+              class="radio"
+              name="radio"
+              id="them-3"
+              type="radio"
+              value="them-3"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="display-container">
+        <input
+          type="text"
+          class="display-input"
+          id=""
+          name=""
+          id=""
+          value="399,981"
+        />
+      </section>
+
+      <section class="keypad">
+        <ul>
+          <li class="button">7</li>
+          <li class="button">8</li>
+          <li class="button">9</li>
+          <li id="deleteButton" class="del-reset">DEL</li>
+
+          <li class="button">4</li>
+          <li class="button">5</li>
+          <li class="button">6</li>
+          <li id="addition" class="button">+</li>
+
+          <li class="button">1</li>
+          <li class="button">2</li>
+
+          <li class="button">3</li>
+          <li id="subtraction" class="button">-</li>
+
+          <li class="button">.</li>
+          <li class="button">0</li>
+          <li id="division" class="button">/</li>
+          <li id="multiplication" class="button">X</li>
+
+          <li id="resetButton" class="del-reset span-2">RESET</li>
+          <li id="equals" class="equal span-2">=</li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
